@@ -1,0 +1,20 @@
+name: Suggestion or feedback / 建議與心得
+description: Ideas, confusing parts, things you liked or did not like. 想法、看不懂的地方、喜歡或不喜歡的。
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues are public. Do **not** paste API keys, passwords or private conversations.
+        issue 是公開的，**不要**貼 API key、密碼或私人對話。
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Your feedback / 你的回饋
+    validations:
+      required: true
+  - type: textarea
+    id: usecase
+    attributes:
+      label: What were you trying to do with it? / 你想拿它做什麼？
+      description: Optional, but it helps a lot. 選填，但很有幫助。

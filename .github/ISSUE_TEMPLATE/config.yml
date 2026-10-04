@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Email (private) / 私下寄信
+    url: mailto:support@universebot.si
+    about: Prefer to write privately? Email support@universebot.si. 想私下講可以寄信。
+  - name: Installation guide & FAQ / 安裝說明與常見問題
+    url: https://universebot.si/en/docs/faq/
+    about: Many setup questions are answered here. 很多安裝問題這裡有答案。

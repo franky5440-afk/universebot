@@ -1,0 +1,59 @@
+name: Bug report / 回報問題
+description: Something does not work as expected. 有東西壞了或跟預期不一樣。
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues are public. Do **not** paste API keys, passwords, pairing codes or private conversations.
+        issue 是公開的，**不要**貼 API key、密碼、配對碼或私人對話。
+  - type: input
+    id: version
+    attributes:
+      label: App version / app 版本
+      description: "Mac: Universe Bot menu → About Universe Bot. Not sure? Write when you downloaded it. Mac 在選單 Universe Bot → 關於；不確定就寫下載日期。"
+      placeholder: "0.2.7"
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform / 平台
+      options:
+        - Mac (Apple silicon)
+        - Mac (Intel)
+        - Linux
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: OS version / 作業系統版本
+      placeholder: "macOS 15.3 / Ubuntu 24.04"
+  - type: checkboxes
+    id: provider
+    attributes:
+      label: Which AI were the affected agents using? / 出問題的 agent 用哪一家？
+      options:
+        - label: Claude (Claude Code)
+        - label: ChatGPT (Codex CLI)
+        - label: Gemini (Gemini CLI)
+        - label: API key (OpenRouter or other OpenAI-compatible) / 自己的 API key
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? / 發生什麼事？
+      description: What you did, what you expected, what you saw instead. 你做了什麼、預期會怎樣、實際看到什麼。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 怎麼重現
+      placeholder: |
+        1.
+        2.
+        3.
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or error text / 截圖或錯誤訊息
+      description: Check the screenshot for personal information before attaching. 附圖前先確認沒有個人資料。
