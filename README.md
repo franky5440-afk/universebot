@@ -21,6 +21,7 @@ It runs on the Claude, ChatGPT or Gemini account you already signed in to, or on
 - **Routines.** Hand out work automatically every day, week or month. A missed run catches up when your computer is back on.
 - **Browses for you, hands over when stuck.** An agent can open its own browser. When a sign-in or verification step needs a human, it asks you to take over.
 - **Talk to the coordinator from your phone** over Telegram or iMessage. It is the same conversation you see on the desktop.
+- **iPhone and iPad phone app** (public TestFlight beta, [join here](https://testflight.apple.com/join/5J2N7Mdg)): follow all your agents and talk to the coordinator while you're away, with messages encrypted end to end.
 - **You decide the permissions.** Four permission levels per agent, from chat only to reading and writing the work folder. Web search can only be turned on by you, on screen.
 
 | | |
@@ -30,7 +31,7 @@ It runs on the Claude, ChatGPT or Gemini account you already signed in to, or on
 
 ## Download
 
-Current version **0.2.9**.
+Current version **0.3.0**.
 
 | Platform | File |
 |---|---|
