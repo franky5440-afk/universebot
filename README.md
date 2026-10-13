@@ -31,7 +31,7 @@ It runs on the Claude, ChatGPT or Gemini account you already signed in to, or on
 
 ## Download
 
-Current version **0.3.0**.
+Current version **0.3.1**.
 
 | Platform | File |
 |---|---|
